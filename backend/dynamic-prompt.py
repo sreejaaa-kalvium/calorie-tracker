@@ -13,7 +13,7 @@ genai.configure(api_key=api_key)
 
 model = genai.GenerativeModel("gemini-1.5-flash")
 
-# --- Dynamic Prompting Example ---
+# --- Dynamic Prompting Example ----
 user_input = "2 boiled eggs and 1 slice of bread"
 
 dynamic_prompt = f"""
